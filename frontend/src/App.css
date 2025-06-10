@@ -1,0 +1,78 @@
+.App{
+  margin-top: 2rem;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.Success{
+  padding: 1rem;
+  color: darkgreen;
+  font-weight: bolder;
+}
+
+.Fail{
+  padding: 1rem;
+  color:red;
+  font-weight: bolder;
+}
+p{
+  font-weight: bold;
+  font-size: 2rem;
+  color: blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+  margin-top: 5%;
+}
+
+img{
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.input-btn{
+
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.input-btn:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: gray;
+}
+
+
+.input-img{
+  color: transparent;
+}
+.input-img::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.input-img::before {
+  content: 'Select Image';
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  background:red;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  white-space: nowrap;
+  /* -webkit-user-select: none; */
+  cursor: pointer;
+  text-shadow: 1px 1px red;
+  font-size: 1rem;
+}
+.input-img:hover::before {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: lightcoral;
+}
+.input-img:active {
+  outline: 0;
+}
